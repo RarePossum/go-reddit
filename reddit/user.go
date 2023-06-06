@@ -21,7 +21,7 @@ type User struct {
 	ID      string     `json:"id,omitempty"`
 	Name    string     `json:"name,omitempty"`
 	Created *Timestamp `json:"created_utc,omitempty"`
-
+	icon    string     `json:"icon_img"`
 	PostKarma    int `json:"link_karma"`
 	CommentKarma int `json:"comment_karma"`
 
