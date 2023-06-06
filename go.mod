@@ -1,4 +1,4 @@
-module github.com/RarePossum/go-reddit/v2
+module github.com/RarePossum/go-reddit
 
 go 1.15
 
